@@ -1,0 +1,11 @@
+{
+  "name": "converter-to-bson",
+  "version": "1.0.0",
+  "description": "Use json or string json convert to BSon C#",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jam <tranvukietk15@gmail.com>",
+  "license": "ISC"
+}
