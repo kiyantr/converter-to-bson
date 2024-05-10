@@ -1,11 +1,15 @@
 {
   "name": "converter-to-bson",
-  "version": "1.0.1",
-  "description": "Use json or string json convert to BSon C#",
+  "version": "1.0.2",
+  "description": "This package provides a simple and efficient way to convert JSON data (either in object format or stringified) into the BSON (Binary JSON) format commonly used by MongoDB and other NoSQL databases.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jam <tranvukietk15@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tranvukietk15/converter-to-bson"
+  }
 }
