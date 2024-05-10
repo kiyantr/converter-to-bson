@@ -1,6 +1,6 @@
 {
   "name": "converter-to-bson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use json or string json convert to BSon C#",
   "main": "index.js",
   "scripts": {
