@@ -23,7 +23,7 @@ Usage:
 Import the CSharpBsonConverter class into your nodejs code:
 
 ```
-import { ToBson } from 'converter-to-bson';
+const toBson = require('converter-to-bson');
 ```
 
 ### Example using:
@@ -53,7 +53,7 @@ var jsonData = {
             }
         };
 
-const bsonData = ToBson(jsonData);
+const bsonData = toBson(jsonData);
 ```
 
 ### Or like this:
@@ -81,7 +81,7 @@ var jsonString = `{
                 },
             }
         }`;
-const bsonData = ToBson(jsonData);
+const bsonData = toBson(jsonData);
 ```
 
 ### Compatibility:

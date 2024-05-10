@@ -34,5 +34,4 @@ convert = (obj, parent) => {
   } catch (error) {}
 };
 
-const ToBson = (obj) => convert(obj.constructor === String ? eval('(' + obj + ')') : obj, null);
-export default ToBson;
+module.exports = (obj) => convert(obj.constructor === String ? eval('(' + obj + ')') : obj, null);
